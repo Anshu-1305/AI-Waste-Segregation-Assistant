@@ -1,0 +1,1 @@
+User Query → AI Understanding → Waste Classification → Disposal Guidance → User Awareness

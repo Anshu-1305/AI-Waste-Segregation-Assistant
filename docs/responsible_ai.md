@@ -1,0 +1,4 @@
+- No personal data collected
+- Transparent decision-making
+- Educational purpose only
+- Ethical and sustainable design
