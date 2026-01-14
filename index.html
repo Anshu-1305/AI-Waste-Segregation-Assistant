@@ -2,19 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI Waste Segregation Assistant</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <div class="container">
-    <h1>AI-Based Waste Segregation Assistant</h1>
-    <p>Ask how to dispose waste correctly</p>
+    <div class="header">
+      <h1>🌍 Waste Segregation AI</h1>
+      <p class="subtitle">Your Smart Recycling Companion</p>
+    </div>
 
-    <input type="text" id="userInput" placeholder="e.g. Where should I throw batteries?">
-    <button onclick="getResponse()">Ask AI</button>
+    <div class="input-section">
+      <input type="text" id="userInput" placeholder="Ask me anything about waste disposal..." onkeypress="if(event.key==='Enter') getResponse()">
+      <button onclick="getResponse()" class="btn">Ask AI</button>
+    </div>
 
-    <div id="response"></div>
+    <div id="response" class="response-box"></div>
   </div>
 
   <script src="script.js"></script>
